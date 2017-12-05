@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-mobile.css">
+
+    <script type="text/javascript">
+        window.addEventListener("load", function() {
+            //alert("dfhfxg");
+            var randomColor;
+            //border-bottom: 12px solid #18ab29;
+            for (var i = 0; i < document.getElementsByClassName("section-text-image").length; i++) {
+                randomColor = Math.floor(Math.random() * 16777215).toString(16);
+                document.getElementsByClassName("section-text-image")[i].style.borderBottom = '8px solid #' + randomColor;
+            }
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <style>
+
+    </style>
+    <script type="text/javascript">
+
+
+    </script>
+</head>
+<body>
+<header id="main-header">
+    <div id="main-header-background"></div>
+    <div id="navigation-wrapper">
+        <div id="navigation-logo-wrapper"><a><div id="navigation-logo"></div></a></div>
+
+        <nav class="nav" role="navigation">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" type="button">≡
+            </button>
+            <ul class="group-list">
+                <li>
+                    <label><span class="fa fa-angle-right"></span> First level</label>
+                    <ul class="group-list">
+                        <li><a href="#">1st level item</a></li>
+                        <li>
+                            <label><span class="fa fa-angle-right"></span> Second level</label>
+                            <ul class="group-list">
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li>
+                                    <label><span class="fa fa-angle-right"></span> Third level</label>
+                                    <ul class="group-list">
+                                        <li><a href="#">3rd level nav item</a></li>
+                                        <li><a href="#">3rd level nav item</a></li>
+                                        <li><a href="#">3rd level nav item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label><span class="fa fa-angle-right"></span> First level</label>
+                    <ul class="group-list">
+
+                        <li><a href="#">1st level item</a></li>
+                        <li><a href="#">1st level item</a></li>
+                        <li>
+                            <label><span class="fa fa-angle-right"></span> Second level</label>
+                            <ul class="group-list">
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li>
+                                    <label><span class="fa fa-angle-right"></span> Third level</label>
+                                    <ul class="group-list">
+                                        <li><a href="#">3rd level nav item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label><span class="fa fa-angle-right"></span> First level</label>
+                    <ul class="group-list">
+
+                        <li><a href="#">1st level item</a></li>
+                        <li><a href="#">1st level item</a></li>
+                        <li>
+                            <label><span class="fa fa-angle-right"></span> Second level</label>
+                            <ul class="group-list">
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li>
+                                    <label><span class="fa fa-angle-right"></span> Third level</label>
+                                    <ul class="group-list">
+                                        <li><a href="#">3rd level nav item</a></li>
+                                        <li><a href="#">3rd level nav item</a></li>
+                                        <li><a href="#">3rd level nav item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label><span class="fa fa-angle-right"></span> First level</label>
+                    <ul class="group-list">
+
+                        <li><a href="#">1st level item</a></li>
+                        <li>
+                            <label><span class="fa fa-angle-right"></span> Second level</label>
+                            <ul class="group-list">
+                                <li><a href="#">2nd level nav item</a></li>
+                                <li><a href="#">2nd level nav item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+
+
+
+        </nav>
+    </div>
+    <div id="search-wrapper">
+        <div class="search-filter-wrapper">
+            <select class="search-filter">
+                <option class="search-filter-options" value="Filter 1">Filter 1</option>
+                <option class="search-filter-options" value="Filter 2">Filter 2</option>
+                <option class="search-filter-options" value="Filter 3">Filter 3</option>
+                <option class="search-filter-options" value="Filter 4">Filter 4</option>
+            </select>
+            <select class="search-filter">
+                <option class="search-filter-options" value="Filter 1">Filter 1</option>
+                <option class="search-filter-options" value="Filter 2">Filter 2</option>
+                <option class="search-filter-options" value="Filter 3">Filter 3</option>
+                <option class="search-filter-options" value="Filter 4">Filter 4</option>
+            </select>
+        </div>
+        <div class="search-site">
+            <input id="search-input" type="search" value="Search">
+            <input type="button" value="" id="search-button">
+        </div>
+    </div>
+</header>
+
+<main id="site-content">
+    <div class="section-text-wrapper">
+        <div class="section-text">
+            <article>
+                <div class="section-text-image" style="background-image: url('img/collared-lizard-2275804.jpg'); background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div>
+                <div class="section-text-content"><p>Nec et percipit abhorreant. Pro te integre vituperata, pri cibo accommodare te. Zril instructior ex pro. In qui dicat ullum everti. Recteque consetetur per et, mediocrem adipiscing ad est, duo ex affert saperet.</p></div>
+            </article>
+        </div>
+        <div class="section-text">
+            <article>
+                <div class="section-text-image" style="background-image: url('img/pancakes-2291908.jpg'); background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div>
+                <div class="section-text-content"><p>Cu vim quodsi tincidunt, eius iudicabit et cum, ius meis primis meliore ex. Est iudico phaedrum te. Quo sale labores accusam no, te homero dissentias persequeris nec, vivendum interpretaris ut quo.</p></div>
+            </article>
+        </div>
+        <div class="section-text">
+            <article>
+                <div class="section-text-image" style="background-image: url('img/sparrow-9950.jpg'); background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div>
+                <div class="section-text-content"><p>Decore fabellas tincidunt vim ad, nec posse legere eu. No iudico verterem maiestatis vix. Magna mundi audire ex pro. Te ius tollit verear. Pro lorem ullum at. Mel ei quod persecuti, ei ius tractatos repudiare philosophia.</p></div>
+            </article>
+        </div>
+    </div>
+    <!-- --------- -->
+    <div class="section-text-bigger-wrapper">
+        <div class="section-text-bigger">
+            <div>
+                <div class="section-text-image" style="background-image: url('img/avenue-2215317.jpg'); background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div>
+
+            </div>
+            <div class="section-text-bigger-content">
+                <h2>Name</h2>
+                <p>No quo elitr consequuntur. Nec ei quis etiam disputando, et mei novum persecuti quaerendum. No phaedrum liberavisse usu, vivendo conclusionemque pri ei. Duo assentior prodesset ex.</p>
+            </div>
+        </div>
+        <div class="section-text-bigger">
+            <article class="longer">
+                <div>
+                    <div class="section-text-image" style="background-image: url('img/balloon-2331488.jpg'); background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div>
+                </div>
+                <div class="section-text-bigger-content">
+                    <h2>Name</h2>
+                    <p>Ut inermis iudicabit vis. Accusam nostrum platonem eum ut, in cum detraxit probatus signiferumque. Eu sit nihil nostrud oportere. Ei duo consul animal invenire, sit in affert audiam signiferumque.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+
+<footer id="main-footer">
+    <div id="main-footer-background"></div>
+    <div id="footer-section-first">
+        <p>Subscribe to our newsletter!</p>
+        <div id="subscribe-send">
+            <img src="img/close-envelope.png" width="18" height="18">
+            <input type="email" value="dsg@dh.cf">
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div id="footer-section-second">
+        <div id="various-links-one">
+            <p>Morbi id erat in nisl</p>
+            <ul>
+                <li><a href="#">Maecenas vitae erat id urna</a></li>
+                <li><a href="#">Duis nec quam egestas metus</a></li>
+                <li><a href="#">Aenean nec orci</a></li>
+                <li><a href="#">Vivamus eu pellentesque</a></li>
+            </ul>
+        </div>
+        <div id="various-links-two">
+            <p>Morbi id erat in nisl</p>
+            <ul>
+                <li><a href="#">Maecenas vitae erat id urna</a></li>
+                <li><a href="#">Duis nec quam egestas metus</a></li>
+                <li><a href="#">Aenean nec orci</a></li>
+                <li><a href="#">Vivamus eu pellentesque</a></li>
+            </ul>
+        </div>
+        <div id="social-links">
+            <p>Follow us</p>
+            <ul>
+                <li><a href="#"><img src="img/facebook-logo.png" width="25px"></a></li>
+                <li><a href="#"><img src="img/instagram-logo.png" width="25px"></a></li>
+                <li><a href="#"><img src="img/linkedin-logo.png" width="25px"></a></li>
+                <li><a href="#"><img src="img/twitter-logo.png" width="25px"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <p id="copyright">© 2017 Vlado Grčić All rights reserved</p>
+</footer>
+</body>
+</html>
